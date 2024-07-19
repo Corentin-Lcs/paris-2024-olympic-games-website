@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+@supports (outline: auto) {
+  *:focus-visible {
+    outline: 2px solid #d7c378;
+    outline: var(--focus-visible-border);
+    outline-offset: 4px;
+  }
+}
+
+@font-face {
+  font-family: "Paris2024OlympicGames";
+  font-style: normal;
+  font-weight: bold;
+  src: url("./assets/fonts/Paris2024OlympicGames.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SourceSansPro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/SourceSansPro.woff2") format("woff2");
+}
+
+:root {
+  --primary-font-family: "Paris2024OlympicGames", sans-serif;
+  --secondary-font-family: "SourceSansPro", sans-serif;
+  --h1-font-size: 70px;
+  --p-font-size: 24px;
+  --black-font: 900;
+  --extra-bold-font: 800;
+  --bold-font: 700;
+  --semi-bold-font: 600;
+  --medium-font: 500;
+  --regular-font: 400;
+  --light-font: 300;
+  --focus-visible-border: 2px solid #d7c378;
+  --dark-mode-control-box-color: #1b1b1bcc;
+  --light-mode-control-box-color: #ffffffcc;
+  --dark-mode-box-shadow: 0 2px 10px #ffffff1a;
+  --light-mode-box-shadow: 0 2px 10px #0000001a;
+  --dark-mode-background-color: #1b1b1b;
+  --light-mode-background-color: #ffffff;
+  --gold-color: #d7c378;
+  --black-color: #000000;
+}
+
+body.dark-mode .control-box {
+  background-color: #1b1b1bcc;
+  background-color: var(--dark-mode-control-box-color);
+  box-shadow: 0 2px 10px #ffffff1a;
+  box-shadow: var(--dark-mode-box-shadow);
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  background-color: var(--light-mode-background-color);
+}
+
+body.light-mode > h1 > p {
+  color: #000000;
+  color: var(--black-color);
+}
+
+body.dark-mode {
+  background: #1b1b1b;
+  background: var(--dark-mode-background-color);
+}
+
+body.dark-mode h1 {
+  color: #d7c378;
+  color: var(--gold-color);
+}
+
+body.dark-mode p {
+  color: #ffffff;
+  color: var(--light-mode-background-color);
+}
+
+#logo,
+#title {
+  text-align: center;
+}
+
+img#logo,
+svg#logo {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 40%;
+}
+
+h1 {
+  font-family: "Paris2024OlympicGames", sans-serif;
+  font-size: 70px;
+  font-size: var(--h1-font-size);
+  font-variation-settings: "wght" 800;
+  font-weight: 800;
+  font-weight: var(--black-font);
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "SourceSansPro", sans-serif;
+  font-size: 24px;
+  font-size: var(--p-font-size);
+  font-weight: 400;
+  font-weight: var(--regular-font);
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #d7c378;
+  color: var(--gold-color);
+  text-decoration: none;
+}
+
+.app {
+	align-items: center;
+  display: flex;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.control-box {
+  align-items: center;
+  background-color: #ffffffcc;
+  background-color: var(--light-mode-control-box-color);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #0000001a;
+  box-shadow: var(--light-mode-box-shadow);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 999;
+}
+
+.mode-toggle,
+.language-toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mode-icon,
+.language-icon {
+  cursor: pointer;
+  font-size: 32px;
+  line-height: 1;
+  transition: transform 0.2s ease;
+  user-select: none;
+}
+
+.mode-toggle {
+  margin-bottom: 20px;
+}
+
+.mode-icon:hover,
+.language-icon:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'SourceSansPro-Regular';
+  src: local('SourceSansPro-Regular'), url('fonts/SourceSansPro-Regular.woff2') format('woff2');
+  font-stretch: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSansPro-Bold';
+  src: local('SourceSansPro-Bold'), url('fonts/SourceSansPro-Bold.woff2') format('woff2');
+  font-stretch: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: local('NotoSans'), url('fonts/NotoSans-Regular.woff2') format('woff2');
+  font-stretch: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSans-Bold';
+  src: local('NotoSans-Bold'), url('fonts/NotoSans-Bold.woff2') format('woff');
+  font-stretch: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OlympicSans';
+  src: local('OlympicSans'), local('Olympic Sans'),
+    url('fonts/OlympicSans.woff2') format('woff');
+  font-stretch: normal;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OlympicSans-Bold';
+  src: local('OlympicSans-Bold'), local('Olympic Sans'),
+    url('fonts/OlympicSans-Bold.woff2') format('woff2');
+  font-stretch: normal;
+  font-weight: bold;
+  font-style: normal;
+}

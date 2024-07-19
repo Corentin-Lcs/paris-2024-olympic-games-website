@@ -1,0 +1,378 @@
+@font-face {
+  font-display:swap;
+  font-family:font-icons;
+  src:url(/_pr/topic-assets/fonts/font-icons.eot?#iefix) format("eot"),
+  url(/_pr/topic-assets/fonts/font-icons.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/font-icons.woff) format("woff"),
+  url(/_pr/topic-assets/fonts/font-icons.svg#font-icons) format("svg")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Olympic Headline;
+  font-style:normal;
+  font-weight:400;
+  src:local("Olympic Headline"),
+  url(/_pr/topic-assets/fonts/OlympicHeadline-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/OlympicHeadline-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Olympic Headline Condensed;
+  font-style:normal;
+  font-weight:700;
+  src:local("Olympic Headline Condensed"),
+  url(/_pr/topic-assets/fonts/OlympicHeadline-Condensed.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/OlympicHeadline-Condensed.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:"Olympic Serif";
+  font-style:normal;
+  font-weight:400;
+  src:local("Olympic Serif"),
+  url(/_pr/topic-assets/fonts/OlympicSerif-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/OlympicSerif-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Olympic Sans;
+  font-style:normal;
+  font-weight:400;
+  src:local("Olympic Sans"),
+  url(/_pr/topic-assets/fonts/OlympicSans-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/OlympicSans-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Olympic Sans;
+  font-style:normal;
+  font-weight:500;
+  src:local("Olympic Sans"),
+  url(/_pr/topic-assets/fonts/OlympicSans-Medium.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/OlympicSans-Medium.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Olympic Sans;
+  font-style:normal;
+  font-weight:700;
+  src:local("Olympic Sans"),
+  url(/_pr/topic-assets/fonts/OlympicSans-Bold.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/OlympicSans-Bold.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Paris\ 2024;
+  font-style:normal;
+  font-weight:400;
+  src:local("Paris 2024"),
+  url(/_pr/topic-assets/fonts/Paris2024/Paris2024-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/Paris2024/Paris2024-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Paris\ 2024;
+  font-style:normal;
+  font-weight:700;
+  src:local("Paris 2024"),
+  url(/_pr/topic-assets/fonts/Paris2024/Paris2024-Bold.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/Paris2024/Paris2024-Bold.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Paris\ 2024;
+  font-style:normal;
+  font-weight:900;
+  src:local("Paris 2024"),
+  url(/_pr/topic-assets/fonts/Paris2024/Paris2024-Black.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/Paris2024/Paris2024-Black.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Paris\ 2024;
+  font-style:italic;
+  font-weight:400;
+  src:local("Paris 2024"),
+  url(/_pr/topic-assets/fonts/Paris2024/Paris2024-Italic.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/Paris2024/Paris2024-Italic.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Paris\ 2024;
+  font-style:italic;
+  font-weight:700;
+  src:local("Paris 2024"),
+  url(/_pr/topic-assets/fonts/Paris2024/Paris2024-BoldItalic.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/Paris2024/Paris2024-BoldItalic.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Paris\ 2024;
+  font-style:italic;
+  font-weight:900;
+  src:local("Paris 2024"),
+  url(/_pr/topic-assets/fonts/Paris2024/Paris2024-BlackItalic.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/Paris2024/Paris2024-BlackItalic.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Source Sans Pro Paris2024;
+  font-style:normal;
+  font-weight:400;
+  src:local("Source Sans Pro Paris2024"),
+  url(/_pr/topic-assets/fonts/SourceSansPro/SourceSansPro-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/SourceSansPro/SourceSansPro-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Source Sans Pro Paris2024;
+  font-style:normal;
+  font-weight:700;
+  src:local("Source Sans Pro Paris2024"),
+  url(/_pr/topic-assets/fonts/SourceSansPro/SourceSansPro-Bold.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/SourceSansPro/SourceSansPro-Bold.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Source Sans Pro Paris2024;
+  font-style:normal;
+  font-weight:900;
+  src:local("Source Sans Pro Paris2024"),
+  url(/_pr/topic-assets/fonts/SourceSansPro/SourceSansPro-Black.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/SourceSansPro/SourceSansPro-Black.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Source Sans Pro Paris2024;
+  font-style:italic;
+  font-weight:400;
+  src:local("Source Sans Pro Paris2024"),
+  url(/_pr/topic-assets/fonts/SourceSansPro/SourceSansPro-Italic.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/SourceSansPro/SourceSansPro-Italic.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Source Sans Pro Paris2024;
+  font-style:italic;
+  font-weight:700;
+  src:local("Source Sans Pro Paris2024"),
+  url(/_pr/topic-assets/fonts/SourceSansPro/SourceSansPro-BoldItalic.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/SourceSansPro/SourceSansPro-BoldItalic.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Trade Gothic;
+  font-style:normal;
+  font-weight:400;
+  src:local("Trade Gothic"),
+  url(/_pr/topic-assets/fonts/Ipacs/Trade-Gothic-LT.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/Ipacs/Trade-Gothic-LT.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Trade Gothic Condensed;
+  font-style:normal;
+  font-weight:400;
+  src:local("Trade Gothic Condensed"),
+  url(/_pr/topic-assets/fonts/Ipacs/Trade-Gothic-LT-Condensed.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/Ipacs/Trade-Gothic-LT-Condensed.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Trade Gothic Condensed;
+  font-style:normal;
+  font-weight:700;
+  src:local("Trade Gothic Condensed"),
+  url(/_pr/topic-assets/fonts/Ipacs/Trade-Gothic-LT-Bold-Condensed.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/Ipacs/Trade-Gothic-LT-Bold-Condensed.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Helvetica Neue;
+  font-style:normal;
+  font-weight:400;
+  src:local("Helvetica Neue"),
+  url(/_pr/topic-assets/fonts/Ipacs/Helvetica\ Neue.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/Ipacs/Helvetica\ Neue.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Helvetica Neue;
+  font-style:normal;
+  font-weight:700;
+  src:local("Helvetica Neue"),
+  url(/_pr/topic-assets/fonts/Ipacs/Helvetica\ Neue-Bold.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/Ipacs/Helvetica\ Neue-Bold.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Bebas Neue;
+  font-style:normal;
+  font-weight:700;
+  src:local("Bebas Neue Bold"),
+  url(/_pr/topic-assets/fonts/ru/BebasNeue-Bold.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/ru/BebasNeue-Bold.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Changa;
+  font-style:normal;
+  font-weight:700;
+  src:local("Changa Bold"),
+  url(/_pr/topic-assets/fonts/ar/Changa-Bold.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/ar/Changa-Bold.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Noto Naskh Arabic;
+  font-style:normal;
+  font-weight:400;
+  src:local("Noto Naskh Arabic Regular"),
+  url(/_pr/topic-assets/fonts/ar/NotoNaskhArabic-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/ar/NotoNaskhArabic-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Noto Sans KR;
+  font-style:normal;
+  font-weight:900;
+  src:local("Noto Sans KR Black"),
+  url(/_pr/topic-assets/fonts/ko/NotoSansKR-Black.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/ko/NotoSansKR-Black.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Noto Sans KR;
+  font-style:normal;
+  font-weight:400;
+  src:local("Noto Sans KR Regular"),
+  url(/_pr/topic-assets/fonts/ko/NotoSansKR-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/ko/NotoSansKR-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:"Noto Serif KR";
+  font-style:normal;
+  font-weight:400;
+  src:local("Noto Serif KR Regular"),
+  url(/_pr/topic-assets/fonts/ko/NotoSerifKR-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/ko/NotoSerifKR-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Noto Sans JP;
+  font-style:normal;
+  font-weight:900;
+  src:local("Noto Sans JP Black"),
+  url(/_pr/topic-assets/fonts/ja/NotoSansJP-Black.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/ja/NotoSansJP-Black.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Noto Sans JP;
+  font-style:normal;
+  font-weight:400;
+  src:local("Noto Sans JP Regular"),
+  url(/_pr/topic-assets/fonts/ja/NotoSansJP-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/ja/NotoSansJP-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:"Noto Serif JP";
+  font-style:normal;
+  font-weight:400;
+  src:local("Noto Serif JP Regular"),
+  url(/_pr/topic-assets/fonts/ja/NotoSerifJP-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/ja/NotoSerifJP-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Karma;
+  font-style:normal;
+  font-weight:400;
+  src:local("Karma Regular"),
+  url(/_pr/topic-assets/fonts/hi/Karma-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/hi/Karma-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Noto Sans Devanagari;
+  font-style:normal;
+  font-weight:700;
+  src:local("Noto Sans Devanagari UI Bold"),
+  url(/_pr/topic-assets/fonts/hi/NotoSansDevanagariUI-Bold.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/hi/NotoSansDevanagariUI-Bold.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Noto Sans Devanagari;
+  font-style:normal;
+  font-weight:400;
+  src:local("Noto Sans Devanagari UI Regular"),
+  url(/_pr/topic-assets/fonts/hi/NotoSansDevanagariUI-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/hi/NotoSansDevanagariUI-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Noto Sans SC;
+  font-style:normal;
+  font-weight:900;
+  src:local("Noto Sans SC Black"),
+  url(/_pr/topic-assets/fonts/zh/NotoSansSC-Black.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/zh/NotoSansSC-Black.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:Noto Sans SC;
+  font-style:normal;
+  font-weight:400;
+  src:local("Noto Sans SC Regular"),
+  url(/_pr/topic-assets/fonts/zh/NotoSansSC-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/zh/NotoSansSC-Regular.woff) format("woff")
+}
+
+@font-face {
+  font-display:swap;
+  font-family:"Noto Serif SC";
+  font-style:normal;
+  font-weight:400;
+  src:local("Noto Serif SC Regular"),
+  url(/_pr/topic-assets/fonts/zh/NotoSerifSC-Regular.woff2) format("woff2"),
+  url(/_pr/topic-assets/fonts/zh/NotoSerifSC-Regular.woff) format("woff")
+}
